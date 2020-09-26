@@ -93,6 +93,11 @@ footer {
   height: 100%;
 }
 
+.product a {
+  text-decoration: none;
+  color: #333;
+}
+
 .product img {
   max-width: 37rem;
   max-height: 37rem;
@@ -124,4 +129,14 @@ button:hover {
 }
 button.primary {
   background-color: #f0c040;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 88%;
+  border-bottom: 0.1rem solid #c0c0c0;
 }
